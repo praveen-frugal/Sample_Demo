@@ -1,0 +1,1 @@
+{"total":2,"items":[{"uid":"920658027cd05ad39e04ac387f9bf17f","name":"POST /users","statistic":{"failed":0,"broken":0,"skipped":0,"passed":1,"unknown":0,"total":1}},{"uid":"4c2061e2b138efad7972d96d1cad5904","name":"GET /users","statistic":{"failed":0,"broken":0,"skipped":0,"passed":1,"unknown":0,"total":1}}]}
