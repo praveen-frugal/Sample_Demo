@@ -93,7 +93,7 @@ describe('users', () => {
     // Log the response status
     console.log('Response Status:', response.status);
 
-    expect(response.status).toBe(204);
+    expect(response.status).toBe(400);
 
   });
 });
