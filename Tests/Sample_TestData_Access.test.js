@@ -1,18 +1,13 @@
+// Tests/Sample_TestData_Access.test.js
 const fetch = require('node-fetch');
-const { addAttach } = require('jest-html-reporters/helper');
 const { baseUrl } = require('../Utils/base');
+const userData = require('../Test_Data/user_js.json');
 
 describe('users', () => {
-  
 
+  // Test to fetch users from page 2
   it('should fetch users from page 2', async () => {
-    const url = `${baseUrl}/users?page=2`;
-    const requestOptions = {
-      method: 'GET',
-      headers: { 'Content-Type': 'application/json' },
-    };
-
-    const response = await fetch(url, requestOptions);
+    const response = await fetch(`${baseUrl}/users?page=2`);
     const data = await response.json();
 
     // Log the response data
@@ -21,35 +16,34 @@ describe('users', () => {
     expect(response.status).toBe(200);
     expect(data).toHaveProperty('page', 2);
     expect(data.data).toBeInstanceOf(Array);
-
-    
   });
 
-  it('should create a new user', async () => {
-    const url = `${baseUrl}/users`;
-    const newUser = {
-      name: 'morpheus',
-      job: 'leader',
-    };
-    const requestOptions = {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify(newUser),
-    };
+  // Test to create users using data from JSON file
+  userData.forEach((user) => {
+    it(`should create a new user: ${user.name}`, async () => {
+      const url = `${baseUrl}/users`;
+      const requestBody = {
+        name: user.name,
+        job: user.job,
+      };
+      const requestOptions = {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(requestBody),
+      };
 
-    const response = await fetch(url, requestOptions);
-    const data = await response.json();
+      const response = await fetch(url, requestOptions);
+      const responseData = await response.json();
 
-    // Log the response data
-    console.log(data);
+      // Log the response data
+      console.log(responseData);
 
-    expect(response.status).toBe(201);
-    expect(data).toHaveProperty('name', newUser.name);
-    expect(data).toHaveProperty('job', newUser.job);
-
-   
+      expect(response.status).toBe(201);
+      expect(responseData).toHaveProperty('name', user.name);
+      expect(responseData).toHaveProperty('job', user.job);
+    });
   });
 
   it('should update a user', async () => {
@@ -93,7 +87,7 @@ describe('users', () => {
     // Log the response status
     console.log('Response Status:', response.status);
 
-    expect(response.status).toBe(400);
+    expect(response.status).toBe(204);
 
   });
 });

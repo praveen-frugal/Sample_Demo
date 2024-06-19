@@ -1,7 +1,7 @@
 const fetch = require('node-fetch');
 const { baseUrl } = require('../Utils/base');
 
-describe('users', () => {
+describe('GET users -> CREATE Users', () => {
    
   it('should fetch users from page 2', async () => {
     const response = await fetch(`${baseUrl}/users?page=2`);
