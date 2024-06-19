@@ -1,13 +1,14 @@
 const fetch = require('node-fetch');
 const { baseUrl } = require('../Utils/base');
 
-describe('Users Creation', () => {
+describe('users', () => {
+   
   it('should fetch users from page 2', async () => {
     const response = await fetch(`${baseUrl}/users?page=2`);
     const data = await response.json();
 
     // Log the response data
-    console.log('Response Data:', JSON.stringify(data));
+    console.log('Response Data:', data);
 
     expect(response.status).toBe(200);
     expect(data).toHaveProperty('page', 2);

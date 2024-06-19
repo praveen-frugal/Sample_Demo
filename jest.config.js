@@ -1,6 +1,6 @@
 module.exports = {
   testEnvironment: 'node',
-  testRunner: 'jest-jasmine2',
+   testRunner: 'jest-jasmine2',
   setupFilesAfterEnv: ['./jest.setup.js'],
   reporters: [
     "default",
@@ -14,5 +14,3 @@ module.exports = {
     ["jest-allure", { "outputDirectory": "./allure-results" }]
   ]
 };
-
-

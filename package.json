@@ -19,6 +19,7 @@
     "jest-jasmine2": "^29.7.0"
   },
   "dependencies": {
-    "node-fetch": "^2.7.0"
+    "node-fetch": "^2.7.0",
+    "puppeteer": "^22.11.2"
   }
 }

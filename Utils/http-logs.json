@@ -143,3 +143,867 @@
     }
   }
 }
+{
+  "url": "https://reqres.in/api/users?page=2",
+  "requestOptions": {
+    "method": "GET",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  },
+  "responseStatus": 200,
+  "responseBody": {
+    "page": 2,
+    "per_page": 6,
+    "total": 12,
+    "total_pages": 2,
+    "data": [
+      {
+        "id": 7,
+        "email": "michael.lawson@reqres.in",
+        "first_name": "Michael",
+        "last_name": "Lawson",
+        "avatar": "https://reqres.in/img/faces/7-image.jpg"
+      },
+      {
+        "id": 8,
+        "email": "lindsay.ferguson@reqres.in",
+        "first_name": "Lindsay",
+        "last_name": "Ferguson",
+        "avatar": "https://reqres.in/img/faces/8-image.jpg"
+      },
+      {
+        "id": 9,
+        "email": "tobias.funke@reqres.in",
+        "first_name": "Tobias",
+        "last_name": "Funke",
+        "avatar": "https://reqres.in/img/faces/9-image.jpg"
+      },
+      {
+        "id": 10,
+        "email": "byron.fields@reqres.in",
+        "first_name": "Byron",
+        "last_name": "Fields",
+        "avatar": "https://reqres.in/img/faces/10-image.jpg"
+      },
+      {
+        "id": 11,
+        "email": "george.edwards@reqres.in",
+        "first_name": "George",
+        "last_name": "Edwards",
+        "avatar": "https://reqres.in/img/faces/11-image.jpg"
+      },
+      {
+        "id": 12,
+        "email": "rachel.howell@reqres.in",
+        "first_name": "Rachel",
+        "last_name": "Howell",
+        "avatar": "https://reqres.in/img/faces/12-image.jpg"
+      }
+    ],
+    "support": {
+      "url": "https://reqres.in/#support-heading",
+      "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+  }
+}
+{
+  "url": "https://reqres.in/api/users",
+  "requestOptions": {
+    "method": "POST",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": "{\"name\":\"John Doe\",\"job\":\"Software Engineer\"}"
+  },
+  "responseStatus": 201,
+  "responseBody": {
+    "name": "John Doe",
+    "job": "Software Engineer",
+    "id": "552",
+    "createdAt": "2024-06-19T05:14:19.596Z"
+  }
+}
+{
+  "url": "https://reqres.in/api/users/2",
+  "requestOptions": {
+    "method": "PUT",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": "{\"name\":\"Jane Doe\",\"job\":\"Product Manager\"}"
+  },
+  "responseStatus": 200,
+  "responseBody": {
+    "name": "Jane Doe",
+    "job": "Product Manager",
+    "updatedAt": "2024-06-19T05:14:20.061Z"
+  }
+}
+{
+  "url": "https://reqres.in/api/users/2",
+  "requestOptions": {
+    "method": "DELETE",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  },
+  "responseStatus": 204,
+  "responseBody": {}
+}
+{
+  "url": "https://reqres.in/api/users?page=2",
+  "requestOptions": {
+    "method": "GET",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  },
+  "responseStatus": 200,
+  "responseBody": {
+    "page": 2,
+    "per_page": 6,
+    "total": 12,
+    "total_pages": 2,
+    "data": [
+      {
+        "id": 7,
+        "email": "michael.lawson@reqres.in",
+        "first_name": "Michael",
+        "last_name": "Lawson",
+        "avatar": "https://reqres.in/img/faces/7-image.jpg"
+      },
+      {
+        "id": 8,
+        "email": "lindsay.ferguson@reqres.in",
+        "first_name": "Lindsay",
+        "last_name": "Ferguson",
+        "avatar": "https://reqres.in/img/faces/8-image.jpg"
+      },
+      {
+        "id": 9,
+        "email": "tobias.funke@reqres.in",
+        "first_name": "Tobias",
+        "last_name": "Funke",
+        "avatar": "https://reqres.in/img/faces/9-image.jpg"
+      },
+      {
+        "id": 10,
+        "email": "byron.fields@reqres.in",
+        "first_name": "Byron",
+        "last_name": "Fields",
+        "avatar": "https://reqres.in/img/faces/10-image.jpg"
+      },
+      {
+        "id": 11,
+        "email": "george.edwards@reqres.in",
+        "first_name": "George",
+        "last_name": "Edwards",
+        "avatar": "https://reqres.in/img/faces/11-image.jpg"
+      },
+      {
+        "id": 12,
+        "email": "rachel.howell@reqres.in",
+        "first_name": "Rachel",
+        "last_name": "Howell",
+        "avatar": "https://reqres.in/img/faces/12-image.jpg"
+      }
+    ],
+    "support": {
+      "url": "https://reqres.in/#support-heading",
+      "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+  }
+}
+{
+  "url": "https://reqres.in/api/users",
+  "requestOptions": {
+    "method": "POST",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": "{\"name\":\"John Doe\",\"job\":\"Software Engineer\"}"
+  },
+  "responseStatus": 201,
+  "responseBody": {
+    "name": "John Doe",
+    "job": "Software Engineer",
+    "id": "634",
+    "createdAt": "2024-06-19T05:17:41.624Z"
+  }
+}
+{
+  "url": "https://reqres.in/api/users/2",
+  "requestOptions": {
+    "method": "PUT",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": "{\"name\":\"Jane Doe\",\"job\":\"Product Manager\"}"
+  },
+  "responseStatus": 200,
+  "responseBody": {
+    "name": "Jane Doe",
+    "job": "Product Manager",
+    "updatedAt": "2024-06-19T05:17:41.988Z"
+  }
+}
+{
+  "url": "https://reqres.in/api/users/2",
+  "requestOptions": {
+    "method": "DELETE",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  },
+  "responseStatus": 204,
+  "responseBody": {}
+}
+{
+  "url": "https://reqres.in/api/users?page=2",
+  "requestOptions": {
+    "method": "GET",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  },
+  "responseStatus": 200,
+  "responseBody": {
+    "page": 2,
+    "per_page": 6,
+    "total": 12,
+    "total_pages": 2,
+    "data": [
+      {
+        "id": 7,
+        "email": "michael.lawson@reqres.in",
+        "first_name": "Michael",
+        "last_name": "Lawson",
+        "avatar": "https://reqres.in/img/faces/7-image.jpg"
+      },
+      {
+        "id": 8,
+        "email": "lindsay.ferguson@reqres.in",
+        "first_name": "Lindsay",
+        "last_name": "Ferguson",
+        "avatar": "https://reqres.in/img/faces/8-image.jpg"
+      },
+      {
+        "id": 9,
+        "email": "tobias.funke@reqres.in",
+        "first_name": "Tobias",
+        "last_name": "Funke",
+        "avatar": "https://reqres.in/img/faces/9-image.jpg"
+      },
+      {
+        "id": 10,
+        "email": "byron.fields@reqres.in",
+        "first_name": "Byron",
+        "last_name": "Fields",
+        "avatar": "https://reqres.in/img/faces/10-image.jpg"
+      },
+      {
+        "id": 11,
+        "email": "george.edwards@reqres.in",
+        "first_name": "George",
+        "last_name": "Edwards",
+        "avatar": "https://reqres.in/img/faces/11-image.jpg"
+      },
+      {
+        "id": 12,
+        "email": "rachel.howell@reqres.in",
+        "first_name": "Rachel",
+        "last_name": "Howell",
+        "avatar": "https://reqres.in/img/faces/12-image.jpg"
+      }
+    ],
+    "support": {
+      "url": "https://reqres.in/#support-heading",
+      "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+  }
+}
+{
+  "url": "https://reqres.in/api/users",
+  "requestOptions": {
+    "method": "POST",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": "{\"name\":\"John Doe\",\"job\":\"Software Engineer\"}"
+  },
+  "responseStatus": 201,
+  "responseBody": {
+    "name": "John Doe",
+    "job": "Software Engineer",
+    "id": "885",
+    "createdAt": "2024-06-19T05:19:25.187Z"
+  }
+}
+{
+  "url": "https://reqres.in/api/users/2",
+  "requestOptions": {
+    "method": "PUT",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": "{\"name\":\"Jane Doe\",\"job\":\"Product Manager\"}"
+  },
+  "responseStatus": 200,
+  "responseBody": {
+    "name": "Jane Doe",
+    "job": "Product Manager",
+    "updatedAt": "2024-06-19T05:19:25.540Z"
+  }
+}
+{
+  "url": "https://reqres.in/api/users/2",
+  "requestOptions": {
+    "method": "DELETE",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  },
+  "responseStatus": 204,
+  "responseBody": {}
+}
+{
+  "url": "https://reqres.in/api/users?page=2",
+  "requestOptions": {
+    "method": "GET",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  },
+  "responseStatus": 200,
+  "responseBody": {
+    "page": 2,
+    "per_page": 6,
+    "total": 12,
+    "total_pages": 2,
+    "data": [
+      {
+        "id": 7,
+        "email": "michael.lawson@reqres.in",
+        "first_name": "Michael",
+        "last_name": "Lawson",
+        "avatar": "https://reqres.in/img/faces/7-image.jpg"
+      },
+      {
+        "id": 8,
+        "email": "lindsay.ferguson@reqres.in",
+        "first_name": "Lindsay",
+        "last_name": "Ferguson",
+        "avatar": "https://reqres.in/img/faces/8-image.jpg"
+      },
+      {
+        "id": 9,
+        "email": "tobias.funke@reqres.in",
+        "first_name": "Tobias",
+        "last_name": "Funke",
+        "avatar": "https://reqres.in/img/faces/9-image.jpg"
+      },
+      {
+        "id": 10,
+        "email": "byron.fields@reqres.in",
+        "first_name": "Byron",
+        "last_name": "Fields",
+        "avatar": "https://reqres.in/img/faces/10-image.jpg"
+      },
+      {
+        "id": 11,
+        "email": "george.edwards@reqres.in",
+        "first_name": "George",
+        "last_name": "Edwards",
+        "avatar": "https://reqres.in/img/faces/11-image.jpg"
+      },
+      {
+        "id": 12,
+        "email": "rachel.howell@reqres.in",
+        "first_name": "Rachel",
+        "last_name": "Howell",
+        "avatar": "https://reqres.in/img/faces/12-image.jpg"
+      }
+    ],
+    "support": {
+      "url": "https://reqres.in/#support-heading",
+      "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+  }
+}
+{
+  "url": "https://reqres.in/api/users",
+  "requestOptions": {
+    "method": "POST",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": "{\"name\":\"John Doe\",\"job\":\"Software Engineer\"}"
+  },
+  "responseStatus": 201,
+  "responseBody": {
+    "name": "John Doe",
+    "job": "Software Engineer",
+    "id": "704",
+    "createdAt": "2024-06-19T05:19:59.415Z"
+  }
+}
+{
+  "url": "https://reqres.in/api/users/2",
+  "requestOptions": {
+    "method": "PUT",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": "{\"name\":\"Jane Doe\",\"job\":\"Product Manager\"}"
+  },
+  "responseStatus": 200,
+  "responseBody": {
+    "name": "Jane Doe",
+    "job": "Product Manager",
+    "updatedAt": "2024-06-19T05:19:59.836Z"
+  }
+}
+{
+  "url": "https://reqres.in/api/users/2",
+  "requestOptions": {
+    "method": "DELETE",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  },
+  "responseStatus": 204,
+  "responseBody": {}
+}
+{
+  "url": "https://reqres.in/api/users?page=2",
+  "requestOptions": {
+    "method": "GET",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  },
+  "responseStatus": 200,
+  "responseBody": {
+    "page": 2,
+    "per_page": 6,
+    "total": 12,
+    "total_pages": 2,
+    "data": [
+      {
+        "id": 7,
+        "email": "michael.lawson@reqres.in",
+        "first_name": "Michael",
+        "last_name": "Lawson",
+        "avatar": "https://reqres.in/img/faces/7-image.jpg"
+      },
+      {
+        "id": 8,
+        "email": "lindsay.ferguson@reqres.in",
+        "first_name": "Lindsay",
+        "last_name": "Ferguson",
+        "avatar": "https://reqres.in/img/faces/8-image.jpg"
+      },
+      {
+        "id": 9,
+        "email": "tobias.funke@reqres.in",
+        "first_name": "Tobias",
+        "last_name": "Funke",
+        "avatar": "https://reqres.in/img/faces/9-image.jpg"
+      },
+      {
+        "id": 10,
+        "email": "byron.fields@reqres.in",
+        "first_name": "Byron",
+        "last_name": "Fields",
+        "avatar": "https://reqres.in/img/faces/10-image.jpg"
+      },
+      {
+        "id": 11,
+        "email": "george.edwards@reqres.in",
+        "first_name": "George",
+        "last_name": "Edwards",
+        "avatar": "https://reqres.in/img/faces/11-image.jpg"
+      },
+      {
+        "id": 12,
+        "email": "rachel.howell@reqres.in",
+        "first_name": "Rachel",
+        "last_name": "Howell",
+        "avatar": "https://reqres.in/img/faces/12-image.jpg"
+      }
+    ],
+    "support": {
+      "url": "https://reqres.in/#support-heading",
+      "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+  }
+}
+{
+  "url": "https://reqres.in/api/users",
+  "requestOptions": {
+    "method": "POST",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": "{\"name\":\"John Doe\",\"job\":\"Software Engineer\"}"
+  },
+  "responseStatus": 201,
+  "responseBody": {
+    "name": "John Doe",
+    "job": "Software Engineer",
+    "id": "5",
+    "createdAt": "2024-06-19T05:22:28.713Z"
+  }
+}
+{
+  "url": "https://reqres.in/api/users/2",
+  "requestOptions": {
+    "method": "PUT",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": "{\"name\":\"Jane Doe\",\"job\":\"Product Manager\"}"
+  },
+  "responseStatus": 200,
+  "responseBody": {
+    "name": "Jane Doe",
+    "job": "Product Manager",
+    "updatedAt": "2024-06-19T05:22:29.086Z"
+  }
+}
+{
+  "url": "https://reqres.in/api/users/2",
+  "requestOptions": {
+    "method": "DELETE",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  },
+  "responseStatus": 204,
+  "responseBody": {}
+}
+{
+  "url": "https://reqres.in/api/users?page=2",
+  "requestOptions": {
+    "method": "GET",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  },
+  "responseStatus": 200,
+  "responseBody": {
+    "page": 2,
+    "per_page": 6,
+    "total": 12,
+    "total_pages": 2,
+    "data": [
+      {
+        "id": 7,
+        "email": "michael.lawson@reqres.in",
+        "first_name": "Michael",
+        "last_name": "Lawson",
+        "avatar": "https://reqres.in/img/faces/7-image.jpg"
+      },
+      {
+        "id": 8,
+        "email": "lindsay.ferguson@reqres.in",
+        "first_name": "Lindsay",
+        "last_name": "Ferguson",
+        "avatar": "https://reqres.in/img/faces/8-image.jpg"
+      },
+      {
+        "id": 9,
+        "email": "tobias.funke@reqres.in",
+        "first_name": "Tobias",
+        "last_name": "Funke",
+        "avatar": "https://reqres.in/img/faces/9-image.jpg"
+      },
+      {
+        "id": 10,
+        "email": "byron.fields@reqres.in",
+        "first_name": "Byron",
+        "last_name": "Fields",
+        "avatar": "https://reqres.in/img/faces/10-image.jpg"
+      },
+      {
+        "id": 11,
+        "email": "george.edwards@reqres.in",
+        "first_name": "George",
+        "last_name": "Edwards",
+        "avatar": "https://reqres.in/img/faces/11-image.jpg"
+      },
+      {
+        "id": 12,
+        "email": "rachel.howell@reqres.in",
+        "first_name": "Rachel",
+        "last_name": "Howell",
+        "avatar": "https://reqres.in/img/faces/12-image.jpg"
+      }
+    ],
+    "support": {
+      "url": "https://reqres.in/#support-heading",
+      "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+  }
+}
+{
+  "url": "https://reqres.in/api/users",
+  "requestOptions": {
+    "method": "POST",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": "{\"name\":\"John Doe\",\"job\":\"Software Engineer\"}"
+  },
+  "responseStatus": 201,
+  "responseBody": {
+    "name": "John Doe",
+    "job": "Software Engineer",
+    "id": "280",
+    "createdAt": "2024-06-19T05:23:08.649Z"
+  }
+}
+{
+  "url": "https://reqres.in/api/users/2",
+  "requestOptions": {
+    "method": "PUT",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": "{\"name\":\"Jane Doe\",\"job\":\"Product Manager\"}"
+  },
+  "responseStatus": 200,
+  "responseBody": {
+    "name": "Jane Doe",
+    "job": "Product Manager",
+    "updatedAt": "2024-06-19T05:23:08.978Z"
+  }
+}
+{
+  "url": "https://reqres.in/api/users/2",
+  "requestOptions": {
+    "method": "DELETE",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  },
+  "responseStatus": 204,
+  "responseBody": {}
+}
+{
+  "url": "https://reqres.in/api/users?page=2",
+  "requestOptions": {
+    "method": "GET",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  },
+  "responseStatus": 200,
+  "responseBody": {
+    "page": 2,
+    "per_page": 6,
+    "total": 12,
+    "total_pages": 2,
+    "data": [
+      {
+        "id": 7,
+        "email": "michael.lawson@reqres.in",
+        "first_name": "Michael",
+        "last_name": "Lawson",
+        "avatar": "https://reqres.in/img/faces/7-image.jpg"
+      },
+      {
+        "id": 8,
+        "email": "lindsay.ferguson@reqres.in",
+        "first_name": "Lindsay",
+        "last_name": "Ferguson",
+        "avatar": "https://reqres.in/img/faces/8-image.jpg"
+      },
+      {
+        "id": 9,
+        "email": "tobias.funke@reqres.in",
+        "first_name": "Tobias",
+        "last_name": "Funke",
+        "avatar": "https://reqres.in/img/faces/9-image.jpg"
+      },
+      {
+        "id": 10,
+        "email": "byron.fields@reqres.in",
+        "first_name": "Byron",
+        "last_name": "Fields",
+        "avatar": "https://reqres.in/img/faces/10-image.jpg"
+      },
+      {
+        "id": 11,
+        "email": "george.edwards@reqres.in",
+        "first_name": "George",
+        "last_name": "Edwards",
+        "avatar": "https://reqres.in/img/faces/11-image.jpg"
+      },
+      {
+        "id": 12,
+        "email": "rachel.howell@reqres.in",
+        "first_name": "Rachel",
+        "last_name": "Howell",
+        "avatar": "https://reqres.in/img/faces/12-image.jpg"
+      }
+    ],
+    "support": {
+      "url": "https://reqres.in/#support-heading",
+      "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+  }
+}
+{
+  "url": "https://reqres.in/api/users",
+  "requestOptions": {
+    "method": "POST",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": "{\"name\":\"John Doe\",\"job\":\"Software Engineer\"}"
+  },
+  "responseStatus": 201,
+  "responseBody": {
+    "name": "John Doe",
+    "job": "Software Engineer",
+    "id": "987",
+    "createdAt": "2024-06-19T05:24:56.193Z"
+  }
+}
+{
+  "url": "https://reqres.in/api/users/2",
+  "requestOptions": {
+    "method": "PUT",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": "{\"name\":\"Jane Doe\",\"job\":\"Product Manager\"}"
+  },
+  "responseStatus": 200,
+  "responseBody": {
+    "name": "Jane Doe",
+    "job": "Product Manager",
+    "updatedAt": "2024-06-19T05:24:56.560Z"
+  }
+}
+{
+  "url": "https://reqres.in/api/users/2",
+  "requestOptions": {
+    "method": "DELETE",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  },
+  "responseStatus": 204,
+  "responseBody": {}
+}
+{
+  "url": "https://reqres.in/api/users?page=2",
+  "requestOptions": {
+    "method": "GET",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  },
+  "responseStatus": 200,
+  "responseBody": {
+    "page": 2,
+    "per_page": 6,
+    "total": 12,
+    "total_pages": 2,
+    "data": [
+      {
+        "id": 7,
+        "email": "michael.lawson@reqres.in",
+        "first_name": "Michael",
+        "last_name": "Lawson",
+        "avatar": "https://reqres.in/img/faces/7-image.jpg"
+      },
+      {
+        "id": 8,
+        "email": "lindsay.ferguson@reqres.in",
+        "first_name": "Lindsay",
+        "last_name": "Ferguson",
+        "avatar": "https://reqres.in/img/faces/8-image.jpg"
+      },
+      {
+        "id": 9,
+        "email": "tobias.funke@reqres.in",
+        "first_name": "Tobias",
+        "last_name": "Funke",
+        "avatar": "https://reqres.in/img/faces/9-image.jpg"
+      },
+      {
+        "id": 10,
+        "email": "byron.fields@reqres.in",
+        "first_name": "Byron",
+        "last_name": "Fields",
+        "avatar": "https://reqres.in/img/faces/10-image.jpg"
+      },
+      {
+        "id": 11,
+        "email": "george.edwards@reqres.in",
+        "first_name": "George",
+        "last_name": "Edwards",
+        "avatar": "https://reqres.in/img/faces/11-image.jpg"
+      },
+      {
+        "id": 12,
+        "email": "rachel.howell@reqres.in",
+        "first_name": "Rachel",
+        "last_name": "Howell",
+        "avatar": "https://reqres.in/img/faces/12-image.jpg"
+      }
+    ],
+    "support": {
+      "url": "https://reqres.in/#support-heading",
+      "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+  }
+}
+{
+  "url": "https://reqres.in/api/users",
+  "requestOptions": {
+    "method": "POST",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": "{\"name\":\"John Doe\",\"job\":\"Software Engineer\"}"
+  },
+  "responseStatus": 201,
+  "responseBody": {
+    "name": "John Doe",
+    "job": "Software Engineer",
+    "id": "296",
+    "createdAt": "2024-06-19T05:25:31.956Z"
+  }
+}
+{
+  "url": "https://reqres.in/api/users/2",
+  "requestOptions": {
+    "method": "PUT",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": "{\"name\":\"Jane Doe\",\"job\":\"Product Manager\"}"
+  },
+  "responseStatus": 200,
+  "responseBody": {
+    "name": "Jane Doe",
+    "job": "Product Manager",
+    "updatedAt": "2024-06-19T05:25:32.289Z"
+  }
+}
+{
+  "url": "https://reqres.in/api/users/2",
+  "requestOptions": {
+    "method": "DELETE",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  },
+  "responseStatus": 204,
+  "responseBody": {}
+}

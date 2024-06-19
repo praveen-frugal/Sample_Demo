@@ -1,1 +1,0 @@
-[{"uid":"aeea615994f4d666","name":"should fetch users from page 2","time":{"start":1718705644448,"stop":1718705644657,"duration":209},"status":"passed","severity":"normal"},{"uid":"daa38c05fac3a274","name":"should create a new user","time":{"start":1718705644444,"stop":1718705645054,"duration":610},"status":"passed","severity":"normal"}]
